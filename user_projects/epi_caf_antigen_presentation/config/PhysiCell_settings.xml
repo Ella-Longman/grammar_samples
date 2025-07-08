@@ -1389,19 +1389,23 @@
                     <necrotic_phagocytosis_rate units="1/min">0.0</necrotic_phagocytosis_rate>
                     <other_dead_phagocytosis_rate units="1/min">0.0</other_dead_phagocytosis_rate>
                     <live_phagocytosis_rates>
-                </live_phagocytosis_rates>
+                        <phagocytosis_rate name="epithelial_normal" units="1/min">0.0</phagocytosis_rate>
+                    </live_phagocytosis_rates>
                     <attack_rates>
                         <attack_rate name="epithelial_tumor" units="1/min">3.33e-4</attack_rate>
                         <attack_rate name="mesenchymal_tumor" units="1/min">3.33e-4</attack_rate>
+                        <attack_rate name="epithelial_normal" units="1/min">0.0</attack_rate>
                     </attack_rates>
                     <attack_damage_rate units="1/min">1</attack_damage_rate>
                     <attack_duration units="min">15</attack_duration>
                     <fusion_rates>
-                  </fusion_rates>
+                        <fusion_rate name="epithelial_normal" units="1/min">0.0</fusion_rate>
+                    </fusion_rates>
                 </cell_interactions>
                 <cell_transformations>
                     <transformation_rates>
-                </transformation_rates>
+                        <transformation_rate name="epithelial_normal" units="1/min">0.0</transformation_rate>
+                    </transformation_rates>
                 </cell_transformations>
                 <cell_integrity>
                     <damage_rate units="1/min">0.0</damage_rate>
@@ -1578,7 +1582,7 @@
 
     <initial_conditions>
         <cell_positions type="csv" enabled="true">
-            <folder>/Users/jeanette.johnson/grammar_samples/user_projects/epi_caf_invasion_edited/config/ics/coculture</folder>
+            <folder>/Users/ellalongman/grammar_samples/user_projects/epi_caf_antigen_presentation/config/ics/coculture</folder>
             <filename>cells.csv</filename>
         </cell_positions>
     </initial_conditions>
