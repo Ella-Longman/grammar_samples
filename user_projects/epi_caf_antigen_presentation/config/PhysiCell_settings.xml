@@ -316,7 +316,7 @@
                     <transformation_rates>
                         <transformation_rate name="epithelial_normal" units="1/min">0</transformation_rate>
                         <transformation_rate name="fibroblast" units="1/min">0.0</transformation_rate>
-                        <transformation_rate name="epithelial_tumor" units="1/min">0.0</transformation_rate>
+                        <transformation_rate name="epithelial_tumor" units="1/min">0.001</transformation_rate>
                         <transformation_rate name="mesenchymal_normal" units="1/min">0.0</transformation_rate>
                         <transformation_rate name="mesenchymal_tumor" units="1/min">0.0</transformation_rate>
                     </transformation_rates>
@@ -503,6 +503,7 @@
                         <transformation_rate name="epithelial_tumor" units="1/min">0.0</transformation_rate>
                         <transformation_rate name="mesenchymal_normal" units="1/min">0.0</transformation_rate>
                         <transformation_rate name="mesenchymal_tumor" units="1/min">1e-3</transformation_rate>
+                        <transformation_rate name="other_tissue" units="1/min">0.0</transformation_rate>
                     </transformation_rates>
                 </cell_transformations>
                 <cell_integrity>
@@ -1395,6 +1396,7 @@
                         <attack_rate name="epithelial_tumor" units="1/min">3.33e-4</attack_rate>
                         <attack_rate name="mesenchymal_tumor" units="1/min">3.33e-4</attack_rate>
                         <attack_rate name="epithelial_normal" units="1/min">0.0</attack_rate>
+                        <attack_rate name="other_tissue" units="1/min">0.0</attack_rate>
                     </attack_rates>
                     <attack_damage_rate units="1/min">1</attack_damage_rate>
                     <attack_duration units="min">15</attack_duration>
