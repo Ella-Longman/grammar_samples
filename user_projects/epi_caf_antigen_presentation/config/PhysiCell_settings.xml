@@ -1512,7 +1512,7 @@
 
     <initial_conditions>
         <cell_positions type="csv" enabled="true">
-            <folder>/Users/ellalongman/grammar_samples/user_projects/epi_caf_antigen_presentation/config/ics/coculture</folder>
+            <folder>/Users/jeanette.johnson/grammar_samples/user_projects/epi_caf_antigen_presentation/config/ics/coculture</folder>
             <filename>cells.csv</filename>
         </cell_positions>
     </initial_conditions>
@@ -1520,7 +1520,7 @@
     <cell_rules>
         <rulesets>
             <ruleset protocol="CBHG" version="3.0" format="csv" enabled="true">
-                <folder>/Users/ellalongman/grammar_samples/user_projects/epi_caf_antigen_presentation/config</folder>
+                <folder>/Users/jeanette.johnson/grammar_samples/user_projects/epi_caf_antigen_presentation/config</folder>
                 <filename>cell_rules.csv</filename>
             </ruleset>
         </rulesets>
