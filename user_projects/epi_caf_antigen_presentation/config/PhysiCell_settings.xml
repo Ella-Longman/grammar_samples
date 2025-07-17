@@ -1277,12 +1277,12 @@
                         <enabled>true</enabled>
                         <use_2D>true</use_2D>
                         <chemotaxis>
-                            <enabled>true</enabled>
+                            <enabled>false</enabled>
                             <substrate>pro-inflammatory factor</substrate>
                             <direction>1</direction>
                         </chemotaxis>
                         <advanced_chemotaxis>
-                            <enabled>false</enabled>
+                            <enabled>true</enabled>
                             <normalize_each_gradient>false</normalize_each_gradient>
                             <chemotactic_sensitivities>
                                 <chemotactic_sensitivity substrate="ecm">0.0</chemotactic_sensitivity>
@@ -1437,12 +1437,12 @@
                         <enabled>true</enabled>
                         <use_2D>true</use_2D>
                         <chemotaxis>
-                            <enabled>true</enabled>
+                            <enabled>false</enabled>
                             <substrate>pro-inflammatory factor</substrate>
                             <direction>1</direction>
                         </chemotaxis>
                         <advanced_chemotaxis>
-                            <enabled>false</enabled>
+                            <enabled>true</enabled>
                             <normalize_each_gradient>false</normalize_each_gradient>
                             <chemotactic_sensitivities>
                                 <chemotactic_sensitivity substrate="ecm">0.0</chemotactic_sensitivity>
@@ -1512,7 +1512,7 @@
 
     <initial_conditions>
         <cell_positions type="csv" enabled="true">
-            <folder>/Users/jeanette.johnson/grammar_samples/user_projects/epi_caf_antigen_presentation/config/ics/coculture</folder>
+            <folder>user_projects/epi_caf_antigen_presentation/config/ics/coculture</folder>
             <filename>cells.csv</filename>
         </cell_positions>
     </initial_conditions>
