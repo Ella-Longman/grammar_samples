@@ -1272,17 +1272,17 @@
                 <motility>
                     <speed units="micron/min">1</speed>
                     <persistence_time units="min">5</persistence_time>
-                    <migration_bias units="dimensionless">0.5</migration_bias>
+                    <migration_bias units="dimensionless">0.25</migration_bias>
                     <options>
                         <enabled>true</enabled>
                         <use_2D>true</use_2D>
                         <chemotaxis>
-                            <enabled>false</enabled>
+                            <enabled>true</enabled>
                             <substrate>pro-inflammatory factor</substrate>
                             <direction>1</direction>
                         </chemotaxis>
                         <advanced_chemotaxis>
-                            <enabled>true</enabled>
+                            <enabled>false</enabled>
                             <normalize_each_gradient>false</normalize_each_gradient>
                             <chemotactic_sensitivities>
                                 <chemotactic_sensitivity substrate="ecm">0.0</chemotactic_sensitivity>
@@ -1328,8 +1328,8 @@
                         <phagocytosis_rate name="epithelial_normal" units="1/min">0.0</phagocytosis_rate>
                     </live_phagocytosis_rates>
                     <attack_rates>
-                        <attack_rate name="epithelial_tumor" units="1/min">3.33e-4</attack_rate>
-                        <attack_rate name="mesenchymal_tumor" units="1/min">3.33e-4</attack_rate>
+                        <attack_rate name="epithelial_tumor" units="1/min">3.33e-2</attack_rate>
+                        <attack_rate name="mesenchymal_tumor" units="1/min">3.33e-2</attack_rate>
                         <attack_rate name="epithelial_normal" units="1/min">0.0</attack_rate>
                         <attack_rate name="other_tissue" units="1/min">0.0</attack_rate>
                     </attack_rates>
@@ -1437,12 +1437,12 @@
                         <enabled>true</enabled>
                         <use_2D>true</use_2D>
                         <chemotaxis>
-                            <enabled>false</enabled>
+                            <enabled>true</enabled>
                             <substrate>pro-inflammatory factor</substrate>
                             <direction>1</direction>
                         </chemotaxis>
                         <advanced_chemotaxis>
-                            <enabled>true</enabled>
+                            <enabled>false</enabled>
                             <normalize_each_gradient>false</normalize_each_gradient>
                             <chemotactic_sensitivities>
                                 <chemotactic_sensitivity substrate="ecm">0.0</chemotactic_sensitivity>
