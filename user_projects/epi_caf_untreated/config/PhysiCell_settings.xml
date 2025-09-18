@@ -942,7 +942,7 @@
                         <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="TGF-B">
-                        <secretion_rate units="1/min">0</secretion_rate>
+                        <secretion_rate units="1/min">0.1</secretion_rate>
                         <secretion_target units="substrate density">1.0</secretion_target>
                         <uptake_rate units="1/min">0.0</uptake_rate>
                         <net_export_rate units="total substrate/min">0.0</net_export_rate>
@@ -2798,15 +2798,15 @@
 
     <initial_conditions>
         <cell_positions type="csv" enabled="true">
-            <folder>/Users/ellalongman/grammar_samples/user_projects/epi_caf_antigen_presentation_josh_edits/config/ics/coculture</folder>
-            <filename>cells.csv</filename>
+            <folder>./config/ics/coculture</folder>
+            <filename>X1134_df.csv</filename>
         </cell_positions>
     </initial_conditions>
 
     <cell_rules>
         <rulesets>
             <ruleset protocol="CBHG" version="3.0" format="csv" enabled="true">
-                <folder>/Users/ellalongman/grammar_samples/user_projects/epi_caf_antigen_presentation_josh_edits/config</folder>
+                <folder>/Users/jeanette.johnson/josh_physicell_fork/grammar_samples/user_projects/epi_caf_antigen_presentation/config</folder>
                 <filename>cell_rules.csv</filename>
             </ruleset>
         </rulesets>
