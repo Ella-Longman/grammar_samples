@@ -2301,7 +2301,7 @@
                         <use_2D>true</use_2D>
                         <chemotaxis>
                             <enabled>true</enabled>
-                            <substrate>IL-2</substrate>
+                            <substrate>inflammatory_signal</substrate>
                             <direction>1</direction>
                         </chemotaxis>
                         <advanced_chemotaxis>
@@ -4755,7 +4755,7 @@
     <initial_conditions>
         <cell_positions type="csv" enabled="true">
             <folder>./config/ics/coculture</folder>
-            <filename>CRR034499.csv</filename>
+            <filename>CRR034499_treated.csv</filename>
         </cell_positions>
     </initial_conditions>
 
