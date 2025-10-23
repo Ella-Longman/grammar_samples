@@ -77,3 +77,5 @@ CD4,contact with mesenchymal_tumor_class2,decreases,migration speed,0,0.1,2,0
 CD4,ecm,decreases,migration speed,0,5,4,0
 CD8,ecm,decreases,migration speed,0,5,4,0
 macrophage,ecm,decreases,migration speed,0,5,4,0
+T-reg,ecm,decreases,migration speed,0,0.5,4,0
+EX_Tcell,ecm,decreases,migration speed,0,0.5,4,0
